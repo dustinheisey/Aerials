@@ -1,0 +1,36 @@
+// global
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 50%;
+}
+
+body {
+  font-family: "open sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--dark);
+  background-image: linear-gradient(to right bottom, #6ce9ff, #13afca);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  border-radius: 10px;
+  margin: 0;
+}
+
+@include desktop-up {
+  html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+}

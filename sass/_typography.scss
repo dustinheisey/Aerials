@@ -1,0 +1,153 @@
+//Elements
+p {
+  font-size: 1.6rem;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 2.8rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+//Classes
+.text-dark {
+  color: var(--dark);
+}
+
+.text-light {
+  color: #ffffff;
+}
+
+.link-primary:hover {
+  color: var(--primary);
+}
+
+.link-nav {
+  color: var(--light);
+  transition: all 0.5s;
+}
+
+.link-nav:hover {
+  color: white;
+}
+
+@include tablet-up {
+  //Elements
+  p {
+    font-size: 2rem;
+  }
+
+  // h1,
+  // h2,
+  // h3 {
+  //   text-transform: uppercase;
+  //   font-weight: 400;
+  // }
+
+  h2 {
+    font-size: 3.5rem;
+  }
+
+  h3 {
+    font-size: 3rem;
+  }
+
+  h4 {
+    font-size: 2.5rem;
+  }
+
+  // a {
+  //   text-decoration: none;
+  // }
+
+  // //Classes
+  // .text-dark {
+  //   color: var(--dark);
+  // }
+
+  // .text-light {
+  //   color: #ffffff;
+  // }
+
+  // .link-primary:hover {
+  //   color: var(--primary);
+  // }
+
+  // .link-nav {
+  //   color: var(--light);
+  //   transition: all 0.5s;
+  // }
+
+  // .link-nav:hover {
+  //   color: white;
+  // }
+}
+
+@include desktop-up {
+  //Elements
+  p {
+    font-size: 2rem;
+  }
+
+  // h1,
+  // h2,
+  // h3 {
+  //   text-transform: uppercase;
+  //   font-weight: 400;
+  // }
+
+  h2 {
+    font-size: 3.5rem;
+  }
+
+  h3 {
+    font-size: 3rem;
+  }
+
+  h4 {
+    font-size: 2.5rem;
+  }
+
+  // a {
+  //   text-decoration: none;
+  // }
+
+  //Classes
+  // .text-dark {
+  //   color: var(--dark);
+  // }
+
+  // .text-light {
+  //   color: #ffffff;
+  // }
+
+  // .link-primary:hover {
+  //   color: var(--primary);
+  // }
+
+  // .link-nav {
+  //   color: var(--light);
+  //   transition: all 0.5s;
+  // }
+
+  // .link-nav:hover {
+  //   color: white;
+  // }
+}
